@@ -1,0 +1,45 @@
+header{
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 5px black;
+}
+body{
+    background-color: gray;
+    font-size: 20px;
+    border: 1px solid white;
+}
+span{
+    color: red;
+}
+select,input{
+    padding: 5px;
+    border-radius: 5px;
+}
+.main{
+    background-color: aliceblue;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.identity{
+    width: 
+}
+.button{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#boyos{
+        margin-left: 14px;
+}
+#button{
+    display: inline-block;
+    padding: 5px;
+    border: white;
+    font-size: medium;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: green;
+    box-shadow: 3px 3px 7px black;
+}

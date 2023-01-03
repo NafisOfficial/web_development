@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header><hr>
+    <div class="main">
+        <div class="identity">
+            <p><label for="name"><span>*</span>Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </p>
+            <p>
+                <label for="email"><span>*</span>Email:</label>
+                <input type="text" placeholder="(your email) @gamil.com" id="email">
+            </p>
+            <p id="boyos">
+                <label for="age"><span>*</span>Age:</label>
+                <input type="number" id="age" placeholder="Enter your age">
+            </p>
+        </div>
+        <p>
+            <div class="papup">
+                <label for="position"><span>*</span>Which option describe your current most ?:</label>
+                <select name="status" id="position">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Librarian">Librarian</option>
+                <option value="Pion">Pion</option>
+                <option value="Babar">Barbar</option>
+            </select>
+            </div>
+        </p>
+        <div class="picnic">
+            <p>Do you want to go to the tour ?</p>
+            <input type="radio" id="definitely" name="want">
+            <label for="definitely ">Definitely</label><br>
+            <input type="radio" id="maybe" name="want">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" id="Ofcourse" name="want">
+            <label for="Ofcourse">Yes Ofcourse</label><br>
+        </div>
+        <div class="breakfast">
+            <label for="breakfast">Do you want to bye our breakfast package ?</label>
+            <select name="" id="breakfast">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="checkbox">
+            <p>If you go ! What will you wants to your breakfast?</p>
+            <input type="checkbox" id="Tea" name="item">
+            <label for="Tea">Tea</label><br>
+            <input type="checkbox" id="Coffee" name="item">
+            <label for="Coffee">Coffee</label><br>
+            <input type="checkbox" id="bread" name="item">
+            <label for="bread">bread</label><br>
+            <input type="checkbox" id="Egg" name="item">
+            <label for="Egg">Egg</label><br>
+            <input type="checkbox" id="Juice" name="item">
+            <label for="Juice">Juice</label><br>
+        </div>
+        <div class="button">
+            <button type="submit" id="button">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
